@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1DB839EA273D7DD3000E251C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB839E9273D7DD3000E251C /* main.cpp */; };
+		1DB839F2273D7E0E000E251C /* Periodic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB839F0273D7E0E000E251C /* Periodic.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1D522464273D8D3E00F8CA21 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
 		1DB839E6273D7DD3000E251C /* Unit 9 Lab: Periodic Table */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Unit 9 Lab: Periodic Table"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DB839E9273D7DD3000E251C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1DB839F0273D7E0E000E251C /* Periodic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Periodic.cpp; sourceTree = "<group>"; };
+		1DB839F1273D7E0E000E251C /* Periodic.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Periodic.hpp; sourceTree = "<group>"; };
+		1DB839F3273D7EEF000E251C /* elements.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = elements.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				1DB839E9273D7DD3000E251C /* main.cpp */,
+				1DB839F3273D7EEF000E251C /* elements.csv */,
+				1DB839F0273D7E0E000E251C /* Periodic.cpp */,
+				1DB839F1273D7E0E000E251C /* Periodic.hpp */,
+				1D522464273D8D3E00F8CA21 /* File */,
 			);
 			path = "Unit 9 Lab: Periodic Table";
 			sourceTree = "<group>";
@@ -119,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DB839F2273D7E0E000E251C /* Periodic.cpp in Sources */,
 				1DB839EA273D7DD3000E251C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
